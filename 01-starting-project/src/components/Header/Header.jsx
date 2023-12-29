@@ -1,6 +1,6 @@
-import logoImage from "../assets/react-core-concepts.png";
+import logoImage from "../../assets/react-core-concepts.png";
 const reactDescriptions = ["Fundamental", "Crucial", "Core"];
-import "../components/Header.css"
+import "./Header.css"
 
 function genRandomInt(max) {
   return Math.floor(Math.random() * (max + 1));
