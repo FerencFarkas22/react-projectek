@@ -1,9 +1,9 @@
-export default function TabButton({ children, onSelect, cica }) {
+export default function TabButton({ children, cica, ...props}) {
 
  
     return(
     <li>
-        <button className={cica ? "active" : ''} onClick={onSelect}>{children}</button>
+        <button className={cica ? "active" : ''} {...props}>{children}</button>
     </li>
     )
 }
